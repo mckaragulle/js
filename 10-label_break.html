@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        ust_dongu: for (let i = 0; i < 3; i++) {
+
+            for (let j = 0; j < 3; j++) {
+
+                let giris = prompt(`Kordinattaki değer (${i},${j})`, '');
+
+                // Eğer iptal edildi veya boş bir değer girildiyse dışarıdaki döngüyü de kır.
+                if (!giris) break ust_dongu; // (*)
+
+                // değer ile birşeyler yap.
+            }
+        }
+        alert('Bitti!');
+    </script>
+</body>
+
+</html>

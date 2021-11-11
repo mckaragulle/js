@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let meyve = prompt("Hangi meyve", "elma");
+        /**
+         * Computed properties (Hesaplanmış değer)
+         * Prompt ile gelen değeri anahtar adı olarak kullanır.
+         */
+        let poset = {
+            [meyve]: 5
+        }
+        console.log(poset);
+
+        /**
+         * 2. Örnek
+         */
+        let sebze = 'havuç';
+        let sepet = {
+            [sebze + 'Yedim']: 5 // poset.elmaYedim = 5
+        };
+        console.log(sepet);
+    </script>
+</body>
+
+</html>

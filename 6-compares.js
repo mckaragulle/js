@@ -42,13 +42,13 @@ Bunun nedeni eşitlik kontrolü == ve karşılaştırma kontrollerinin > < >= <=
 
 Diğer bir taraftan eşitlik kontrolü ==, undefined ve null için kurala göre bir değişikliğe uğramaz. Sadece birbirleri arasında (undefined ile null) eşitliğe sahiptirler. Diğer türlü hiç birşeye eşit değildirler. Bundan dolayı null == 0 false olur.
  */
- console.log("\n6.1. null > 0 => " + (null > 0));
- console.log("6.2. null == 0 => " + (null == 0));
- console.log("6.3. null < 0 => " + (null < 0));
- console.log("6.4. null >= 0 => " + (null >= 0));
- console.log("6.5. null <= 0 => " + (null <= 0));
- 
- /**
+console.log("\n6.1. null > 0 => " + (null > 0));
+console.log("6.2. null == 0 => " + (null == 0));
+console.log("6.3. null < 0 => " + (null < 0));
+console.log("6.4. null >= 0 => " + (null >= 0));
+console.log("6.5. null <= 0 => " + (null <= 0));
+
+/**
   * 7. (1.) ve (2.) örneklerde false döndü çünkü undefined NaN oldu. Nan özel bir sayısal değişkendir ve hangi sayı ile karşılaştırılırsa karşılaştırılsın, sonuç false çıkar.
 (3.) maddedeki eşitlik kontrolü ise undefined'ın sadece null ile eşit olabilmesinden dolayıdır. null haricinde hiç bir değere eşit değildir.
   */
